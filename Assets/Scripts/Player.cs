@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
         {
             _score++;
             ScoreChanged?.Invoke(_score);
-            Destroy(coin);
+            Destroy(coin.gameObject);
         }
     }
 }

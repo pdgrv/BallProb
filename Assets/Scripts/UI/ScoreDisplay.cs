@@ -6,7 +6,7 @@ using TMPro;
 public class ScoreDisplay : MonoBehaviour
 {
     [SerializeField] private Player _player;
-    [SerializeField] private TMP_Text _text;
+    [SerializeField] private TMP_Text _scoreDisplay;
 
     private void OnEnable()
     {
@@ -20,6 +20,6 @@ public class ScoreDisplay : MonoBehaviour
 
     private void OnScoreChanged(int score)
     {
-        _text.text = score.ToString();
+        _scoreDisplay.text = score.ToString();
     }
 }
