@@ -863,7 +863,7 @@ MonoBehaviour:
   - {fileID: 7638561901830876418, guid: 08b1ac8dd85c0f84ebd97e9d3fe56dd9, type: 3}
   - {fileID: 6242798048536634897, guid: 84ad8033cc4875f49a6234eab318156d, type: 3}
   _player: {fileID: 254560457}
-  _viewRadius: 25
+  _viewRange: 20
   _cellSize: 1
 --- !u!4 &1868189262
 Transform:
