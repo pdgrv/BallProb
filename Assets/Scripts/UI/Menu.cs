@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    public void OpenPanel()
+    {
+        
+    }
     public void Exit()
     {
-        Debug.Log("Application quit.");
         Application.Quit();
     }
 
