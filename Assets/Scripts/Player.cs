@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
     private int _score;
 
-    public UnityAction<int> ScoreChanged;
+    public event UnityAction<int> ScoreChanged;
 
     private void Start()
     {
